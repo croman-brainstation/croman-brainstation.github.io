@@ -2,10 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Chelsea's Static Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning HTML, CSS & VSCode</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Chelsea's Static Site</h1>
+    <header>
+      <h1>HTML, CSS & VSCode Demo</h1>
+      <nav>
+        <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li>
+            <a href="https://css-tricks.com" target="_blank">CSS Tricks</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Blog Posts</h2>
+        <article>
+          <h3>My Blog Post</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+            totam iure veniam temporibus ut excepturi esse laudantium porro amet
+            explicabo deleniti aspernatur unde officia tempore quo reiciendis
+            veritatis earum mollitia.
+          </p>
+        </article>
+        <article class="special-background">
+          <h3>My Second Blog Post</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nam
+            molestias accusamus distinctio, at nesciunt illum cumque tempore
+            natus cum reiciendis alias, blanditiis necessitatibus quas, id
+            consequatur eius magni dolore!
+          </p>
+        </article>
+      </section>
+      <section>
+        <figure>
+          <img
+            src="http://www.openbookproject.net/tutorials/getdown/css/images/lesson4/HTMLDOMTree.png"
+            alt="HTML Tree Structure" />
+        </figure>
+        <figcaption>A diagram showing a useful HTML tree</figcaption>
+      </section>
+      <section>
+        <button>Button</button>
+        <button id="special-id" disabled>Printer not online</button>
+        <a class="btn" href="https://google.com">Contact Us</a>
+      </section>
+      <section>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </section>
+      <section>
+        <p>Ampersand: &amp;</p>
+        <p>Euro: &euro;</p>
+        <p>Emoji: &#9889;</p>
+        <p>🦋</p>
+      </section>
+    </main>
   </body>
 </html>
